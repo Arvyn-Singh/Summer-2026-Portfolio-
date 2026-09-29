@@ -1,0 +1,10 @@
+Tue. [29/09/2026]
+
+I noticed that the code can take a grid and run two deterministic runs on the grid. To see if only 2 consecutive attempts are needed to completely solve it deterministically. 
+However, I believe my evaluations can't smartly assess that, if two aren't enough, we need to pump grid into the stochastic section. 
+My code takes an incomplete code, that wasn't solved completely in 2 deterministic runs, and produces it, claiming it's completely solved deterministically, rather than...
+... pumping it into the stochastic section for completing the rest of the grid. 
+
+I'll fix this issue in the coming days. I need to add a fix and stress test it against some sample inputs. 
+I do not believe I had this error when I completed the code, but I may have put it in for a specific test and forgot to undo that. I took that version I forgot to fix and pasted ... 
+... it, I think. 
