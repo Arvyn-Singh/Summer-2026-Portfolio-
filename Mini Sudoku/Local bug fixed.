@@ -1,0 +1,15 @@
+## This text is already a comment under my original Bug file, from earlier today, but it's not as easy to find as it's just recorded as a commit and accessible from a 
+comment icon. So I'll paste here: 
+
+####### VVVVVV ########
+
+Fixed the local bug. [29/09/2026; 23:21]
+
+Technically, I fixed the bug in about 10 minutes earlier today, but I'm done studies so just documenting at this time.
+
+I'll refer to more test cases to prune out any other bugs. I am still critical about that same local area where the bug was first set.
+
+The code worked fine, with this new evaluation logic, with an Expert level test case. Solve time was 12 minutes on an outsourced CPU, 
+as I believe this test case had 16 slots for the stochastic mechanisms to "guess" on.
+
+########################
